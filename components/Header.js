@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import {SearchIcon,
+        PlusCircleIcon, HeartIcon, PaperAirplaneIcon, MenuIcon,} from "@heroicons/react/outline";
 
+// import { BeakerIcon } from '@heroicons/react/24/solid'
 const Header = () => {
   return (
     <div>
@@ -23,7 +26,13 @@ const Header = () => {
               />
             </div>
 
-        {/* middle */}
+        {/* middle search input field*/}
+        <div>
+          <div>
+            <SearchIcon className='h-5 w-5'/>
+          </div>
+          <input type='text' placeholder='Search'/>
+        </div>
 
         {/* Right */}
         </div>
