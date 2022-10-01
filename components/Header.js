@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import {SearchIcon,
         PlusCircleIcon, HeartIcon, PaperAirplaneIcon, MenuIcon,} from "@heroicons/react/outline";
+import {HomeIcon} from "@heroicons/react/solid";
 
 // import { BeakerIcon } from '@heroicons/react/24/solid'
 const Header = () => {
@@ -41,6 +42,10 @@ const Header = () => {
         
 
         {/* Right */}
+
+        <div>
+          <HomeIcon className='h-10 w-10' />
+        </div>
         </div>
         
 
