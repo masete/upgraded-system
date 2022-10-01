@@ -32,7 +32,7 @@ const Header = () => {
             <SearchIcon className='h-5 w-5 text-gray-500'/>
           </div>
           <input type='text' 
-          className='bg-gray-50 block w-full pl-10 sm:text-sm border-gray focus:ring-black focus:border-black' placeholder='Search'
+          className='bg-gray-50 block w-full pl-10 sm:text-sm border-gray-300 focus:ring-black focus:border-black rounded-md' placeholder='Search'
           />
         </div>
 
