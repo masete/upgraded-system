@@ -47,6 +47,7 @@ const Header = () => {
           <HomeIcon className='navBtn' />
           <MenuIcon className='h-6 w-10 md:hidden cursor-pointer' />
           <PaperAirplaneIcon className='navBtn' />
+          <PlusCircleIcon className='navBtn' />
         </div>
         </div>
         
