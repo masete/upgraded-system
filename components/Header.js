@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
         
-        <div className='flex justify-between max-w-6xl'>
+        <div className='flex justify-between mx-5 xl:mx-auto'>
             {/* left */}
             <div className='relative hidden lg:inline-grid w-24 cursor-pointer'>
               <Image
