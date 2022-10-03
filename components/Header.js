@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import {SearchIcon,
-        PlusCircleIcon, HeartIcon, PaperAirplaneIcon, MenuIcon,} from "@heroicons/react/outline";
+        PlusCircleIcon, HeartIcon, PaperAirplaneIcon, MenuIcon, UserGroupIcon,} from "@heroicons/react/outline";
 import {HomeIcon} from "@heroicons/react/solid";
 
 // import { BeakerIcon } from '@heroicons/react/24/solid'
@@ -48,6 +48,8 @@ const Header = () => {
           <MenuIcon className='h-6 w-10 md:hidden cursor-pointer' />
           <PaperAirplaneIcon className='navBtn' />
           <PlusCircleIcon className='navBtn' />
+          <UserGroupIcon className='navBtn' />
+          <HeartIcon className='navBtn' />
         </div>
         </div>
         
