@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div>
         
-        <div className='flex justify-between mx-5 xl:mx-auto'>
+        <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
             {/* left */}
             <div className='relative hidden lg:inline-grid w-24 cursor-pointer'>
               <Image
@@ -43,8 +43,10 @@ const Header = () => {
 
         {/* Right */}
 
-        <div>
+        <div className='flex items-center justify-end space-x-4'>
           <HomeIcon className='h-10 w-10' />
+          <MenuIcon className='h-10 w-10 md:hidden cursor-pointer' />
+          <PaperAirplaneIcon className='h-10 w-10' />
         </div>
         </div>
         
