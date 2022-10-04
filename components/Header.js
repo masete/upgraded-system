@@ -7,7 +7,7 @@ import {HomeIcon} from "@heroicons/react/solid";
 // import { BeakerIcon } from '@heroicons/react/24/solid'
 const Header = () => {
   return (
-    <div>
+    <div className='shadow-sm sticky top-0 z-50 bg-white'>
         
         <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
             {/* left */}
