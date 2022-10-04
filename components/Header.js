@@ -4,7 +4,6 @@ import {SearchIcon,
         PlusCircleIcon, HeartIcon, PaperAirplaneIcon, MenuIcon, UserGroupIcon,} from "@heroicons/react/outline";
 import {HomeIcon} from "@heroicons/react/solid";
 
-// import { BeakerIcon } from '@heroicons/react/24/solid'
 const Header = () => {
   return (
     <div className='shadow-sm sticky top-0 z-50 bg-white'>
