@@ -2,7 +2,19 @@ import React from 'react'
 
 const Feed = () => {
   return (
-    <div>Feed</div>
+    <main>
+      {/* section */}
+          {/* stories */}
+          {/* posts */}
+
+      {/* section */}
+          {/* mini profile */}
+          {/* suggestions */}
+
+      <section></section>
+      <section></section>
+
+    </main>
   )
 }
 
