@@ -50,6 +50,10 @@ const Header = () => {
           <PlusCircleIcon className='navBtn' />
           <UserGroupIcon className='navBtn' />
           <HeartIcon className='navBtn' />
+
+          <img 
+          className='h-10 rounded-full cursor-pointer'
+          src='https://links.papareact.com/3ke' alt='profile-pic'/>
         </div>
         </div>
         
