@@ -12,10 +12,12 @@ const Feed = () => {
           {/* mini profile */}
           {/* suggestions */}
 
-      <section>
+      <section className='col-span-2'>
         <Stories />
       </section>
-      <section></section>
+      <section>
+
+      </section>
 
     </main>
   )
