@@ -2,7 +2,10 @@ import React from 'react'
 
 const Story = ({img, username}) => {
   return (
-    <div>Story</div>
+    <div>
+        <img src={img} alt='profile'/>  
+        <p>{username}</p>
+    </div>
   )
 }
 
