@@ -1,7 +1,8 @@
-import React from 'react';
+import {React, useEffect, useState} from 'react';
 import faker from 'faker';
 
 export const Stories = () => {
+  const [suggestions, setSuggestions] = useState([])
 
   useEffect(() => {
     const suggestions = [...Array(20)].map((_, i) => ({
@@ -9,7 +10,7 @@ export const Stories = () => {
       id: i,
     }));
 
-    console.log(suggestions)
+    setSuggestions(suggestions)
   }, [])
   
   return (
