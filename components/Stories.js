@@ -18,7 +18,7 @@ export const Stories = () => {
     <div className='flex space-x-2 p-6 bg-white mt-8 border border-gray-200 rounded-sm overflow-x-scroll'>
       {suggestions.map((profile) =>(
         <Story key={profile.id}
-               img={profile.avatar}
+               img={profile.avatars}
                username={profile.username} />
       ))}
       {/* stories */}
