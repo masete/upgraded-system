@@ -15,7 +15,9 @@ export const Stories = () => {
   
   return (
     <div>
-      Stories
+      {suggestions.map(profile =>(
+        <Story key={profile.id} img={profile.avatar} username={profile.username} />
+      ))}
       {/* stories */}
       {/* stories */}
       {/* stories */}
