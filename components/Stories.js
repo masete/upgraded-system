@@ -1,5 +1,6 @@
 import {React, useEffect, useState} from 'react';
 import faker from 'faker';
+import Story from './Story';
 
 export const Stories = () => {
   const [suggestions, setSuggestions] = useState([])
@@ -16,7 +17,9 @@ export const Stories = () => {
   return (
     <div>
       {suggestions.map(profile =>(
-        <Story key={profile.id} img={profile.avatar} username={profile.username} />
+        <Story key={profile.id}
+               img={profile.avatar}
+               username={profile.username} />
       ))}
       {/* stories */}
       {/* stories */}
