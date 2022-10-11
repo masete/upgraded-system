@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Post = () => {
+
+const Post = ({id, username, img, userImage, caption}) => {
   return (
     <div>Iam a Post</div>
   )
