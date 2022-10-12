@@ -8,12 +8,12 @@ import {BookmarkIcon,
 
 
 
-const Post = ({id, username, img, userImage, caption}) => {
+const Post = ({id, username, img, userImg, caption}) => {
   return (
     <div>Iam a Post
         {/* Header */}
         <div>
-            <img src='' alt='' />
+            <img src={userImg} alt='user' />
             <p>username</p>
             <DotsHorizontalIcon className='h-5' /> 
         </div>
