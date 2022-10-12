@@ -13,7 +13,9 @@ const Post = ({id, username, img, userImg, caption}) => {
     <div>Iam a Post
         {/* Header */}
         <div>
-            <img src={userImg} alt='user' />
+            <img src={userImg}
+            className="rounded-full"
+            alt='user' />
             <p>username</p>
             <DotsHorizontalIcon className='h-5' /> 
         </div>
