@@ -15,6 +15,7 @@ const Post = ({id, username, img, userImage, caption}) => {
         <div>
             <img src='' alt='' />
             <p>username</p>
+            <DotsHorizontalIcon className='h-5' /> 
         </div>
         {/* img */}
         {/* buttons */}
