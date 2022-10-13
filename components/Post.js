@@ -12,7 +12,7 @@ const Post = ({id, username, img, userImg, caption}) => {
   return (
     <div>Iam a Post
         {/* Header */}
-        <div>
+        <div className='flex items-center p-5'>
             <img src={userImg}
             className="rounded-full h-12 w-12 object-contain border p-1 mr-3"
             alt='user' />
